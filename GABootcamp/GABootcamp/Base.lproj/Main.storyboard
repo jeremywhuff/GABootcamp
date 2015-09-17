@@ -27,6 +27,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHN-4W-N4M">
                                 <rect key="frame" x="253" y="240" width="94" height="30"/>
                                 <state key="normal" title="Change Color"/>
+                                <connections>
+                                    <action selector="changeColorButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3PN-sn-Fsp"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -37,6 +40,9 @@
                             <constraint firstItem="fHN-4W-N4M" firstAttribute="top" secondItem="0wg-vt-iH4" secondAttribute="bottom" constant="20" id="jbN-K5-tu9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="coloredView" destination="0wg-vt-iH4" id="5qB-eJ-IUk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
