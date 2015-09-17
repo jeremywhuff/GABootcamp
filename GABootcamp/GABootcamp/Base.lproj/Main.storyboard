@@ -24,11 +24,17 @@
                                     <constraint firstAttribute="width" constant="100" id="ZVd-uF-8ke"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHN-4W-N4M">
+                                <rect key="frame" x="253" y="240" width="94" height="30"/>
+                                <state key="normal" title="Change Color"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="0wg-vt-iH4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7mo-ur-KSK"/>
                             <constraint firstItem="0wg-vt-iH4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="Uir-iT-oo9"/>
+                            <constraint firstItem="fHN-4W-N4M" firstAttribute="centerX" secondItem="0wg-vt-iH4" secondAttribute="centerX" id="XG5-LT-HTJ"/>
+                            <constraint firstItem="fHN-4W-N4M" firstAttribute="top" secondItem="0wg-vt-iH4" secondAttribute="bottom" constant="20" id="jbN-K5-tu9"/>
                         </constraints>
                     </view>
                 </viewController>
