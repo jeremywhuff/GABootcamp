@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5BE15D261F694DE8EF6AF4A0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57945F7F4CD87DBAB0CEF762 /* libPods.a */; };
+		FB7295131BAB8DFB00FC5B23 /* GAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7295121BAB8DFB00FC5B23 /* GAModel.swift */; settings = {ASSET_TAGS = (); }; };
 		FBD424761BAB4D6000A25C47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD424751BAB4D6000A25C47 /* AppDelegate.swift */; };
 		FBD424781BAB4D6000A25C47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD424771BAB4D6000A25C47 /* ViewController.swift */; };
 		FBD4247B1BAB4D6000A25C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD424791BAB4D6000A25C47 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		57945F7F4CD87DBAB0CEF762 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31ECAA300B657CA0C543E0F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FB7295111BAB88B800FC5B23 /* GABootcamp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GABootcamp-Bridging-Header.h"; sourceTree = "<group>"; };
+		FB7295121BAB8DFB00FC5B23 /* GAModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAModel.swift; sourceTree = "<group>"; };
 		FBD424721BAB4D6000A25C47 /* GABootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GABootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD424751BAB4D6000A25C47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBD424771BAB4D6000A25C47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				FB7295111BAB88B800FC5B23 /* GABootcamp-Bridging-Header.h */,
 				FBD424751BAB4D6000A25C47 /* AppDelegate.swift */,
 				FBD424771BAB4D6000A25C47 /* ViewController.swift */,
+				FB7295121BAB8DFB00FC5B23 /* GAModel.swift */,
 				FBD424791BAB4D6000A25C47 /* Main.storyboard */,
 				FBD4247C1BAB4D6000A25C47 /* Assets.xcassets */,
 				FBD4247E1BAB4D6000A25C47 /* LaunchScreen.storyboard */,
@@ -317,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBD424781BAB4D6000A25C47 /* ViewController.swift in Sources */,
+				FB7295131BAB8DFB00FC5B23 /* GAModel.swift in Sources */,
 				FBD424761BAB4D6000A25C47 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
