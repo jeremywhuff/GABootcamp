@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let model: GAModel = GAModel()
 
     @IBOutlet weak var coloredView: UIView!
     
@@ -19,6 +21,13 @@ class ViewController: UIViewController {
         else {
             coloredView.backgroundColor = UIColor.redColor()
         }
+        
+        model.makeRequest()
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        model.setupLocationManager()
     }
 }
 
