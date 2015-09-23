@@ -14,7 +14,9 @@ class GAModel: NSObject, CLLocationManagerDelegate {
     var location: CLLocation? = nil
     let locationManager = CLLocationManager()
     
-    func makeRequest() {
+    var venuesArray: [String] = []
+    
+    func makeRequest(completionClosure: () -> ()) {
         
         if let locationUnwrapped = location {
             
@@ -35,8 +37,19 @@ class GAModel: NSObject, CLLocationManagerDelegate {
                         let name = venueDict["name"] as! String
                         print(name)
                     }
+                    
+                    self.venuesArray = []
+                    for venue in venues {
+                        let venueDict = venue as! [NSObject:AnyObject]
+                        let name = venueDict["name"] as! String
+                        self.venuesArray.append(name)
+                    }
+                    
+                    completionClosure()
+                    
                 }) { (operation: AFHTTPRequestOperation, error: NSError) -> Void in
                     print("Failure")
+                    completionClosure()
             }
         }
     }

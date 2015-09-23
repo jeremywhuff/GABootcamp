@@ -21,13 +21,23 @@ class ViewController: UIViewController {
         else {
             coloredView.backgroundColor = UIColor.redColor()
         }
-        
-        model.makeRequest()
+    }
+    
+    @IBAction func segueButtonPushed(sender: AnyObject) {
+        model.makeRequest { () -> () in
+            self.performSegueWithIdentifier("manualSegue", sender: self)
+        }
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         model.setupLocationManager()
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let destinationVTVC = segue.destinationViewController as? VenueTableViewController {
+            destinationVTVC.model = model
+        }
     }
 }
 
