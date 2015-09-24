@@ -41,7 +41,7 @@
 		57945F7F4CD87DBAB0CEF762 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31ECAA300B657CA0C543E0F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FB697B4E1BB3477E00BD4232 /* VenueTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueTableViewController.swift; sourceTree = "<group>"; };
-		FB7295111BAB88B800FC5B23 /* GABootcamp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GABootcamp-Bridging-Header.h"; sourceTree = "<group>"; };
+		FB697B511BB37F6100BD4232 /* GABootcamp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GABootcamp-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		FB7295121BAB8DFB00FC5B23 /* GAModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAModel.swift; sourceTree = "<group>"; };
 		FBD424721BAB4D6000A25C47 /* GABootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GABootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD424751BAB4D6000A25C47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 		FBD424741BAB4D6000A25C47 /* GABootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				FB7295111BAB88B800FC5B23 /* GABootcamp-Bridging-Header.h */,
+				FB697B511BB37F6100BD4232 /* GABootcamp-Bridging-Header.h */,
 				FBD424751BAB4D6000A25C47 /* AppDelegate.swift */,
 				FBD424771BAB4D6000A25C47 /* ViewController.swift */,
 				FB7295121BAB8DFB00FC5B23 /* GAModel.swift */,
